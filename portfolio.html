@@ -54,7 +54,7 @@
               href="mailto:info@devstudio.com"
             >
             <svg class="header-contact-icon header-tel-icon" width="16" height="12">
-                <use href="./images/symbol-defs.svg#envelope"></use>
+                <use href="./images/icons.svg#envelope"></use>
               </svg>
             info@devstudio.com
             </a>
@@ -65,7 +65,7 @@
               href="tel:+380961111111"
             >
               <svg class="header-contact-icon header-mail-icon" width="10" height="16">
-                <use href="./images/symbol-defs.svg#smartphone"></use>
+                <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11
             </a>
@@ -345,7 +345,7 @@
 
       <footer class="footer">
       <div class="container footer-block">
-        <div class="footer-block-contacts">
+        <div class="footer-block-item footer-block-contacts">
             <a href="" class="logo logo-footer">
               <span class="logo-web">Web</span
               ><span class="logo-studio-footer">Studio</span>
@@ -375,13 +375,13 @@
             </address>
           </div>
 
-          <div class="footer-block-soclinks">
+          <div class="footer-block-item footer-block-soclinks">
             <p>Приєднуйтесь</p>
             <ul class="social-icons list">
               <li class="social-item">
                 <a href="" class="social-link link">
                   <svg class="social-icon" width="20" height="20">
-                    <use href="./images/symbol-defs.svg#sl-instagram"></use>
+                    <use href="./images/icons.svg#sl-instagram"></use>
                   </svg>
                 </a>
               </li>
@@ -389,7 +389,7 @@
               <li class="social-item">
                 <a href="" class="social-link link">
                   <svg class="social-icon" width="20" height="20">
-                    <use href="./images/symbol-defs.svg#sl-twitter"></use>
+                    <use href="./images/icons.svg#sl-twitter"></use>
                   </svg>
                 </a>
               </li>
@@ -397,7 +397,7 @@
               <li class="social-item">
                 <a href="" class="social-link link">
                   <svg class="social-icon" width="20" height="20">
-                    <use href="./images/symbol-defs.svg#sl-facebook"></use>
+                    <use href="./images/icons.svg#sl-facebook"></use>
                   </svg>
                 </a>
               </li>
@@ -405,11 +405,35 @@
               <li class="social-item">
                 <a href="" class="social-link link">
                   <svg class="social-icon" width="20" height="20">
-                    <use href="./images/symbol-defs.svg#sl-linkedin"></use>
+                    <use href="./images/icons.svg#sl-linkedin"></use>
                   </svg>
                 </a>
               </li>
             </ul>
+        </div>
+
+        <div class="footer-block-item footer-block-subsctiption">
+          <form name="subsctiption-form" autocomplete="on" novalidate>
+
+            <p>Підпишіться на розсилку</p> 
+
+            <div class="subscription-line">
+              <div class="form-field">
+                <label for="mail"></label>
+                <input type="email" name="mail" id="mail" placeholder="E-mail"/>
+              </div>
+
+              <button type="submit" class="submit-button">
+                <!-- <div class="submit-button-item"> -->
+                  Підписатися
+                  <svg class="subscription-icon" width="24" height="24">
+                      <use href="./images/icons.svg#send"></use>
+                  </svg>
+                <!-- </div> -->
+              </button>
+            </div>
+            
+          </form>
         </div>
 
       </div>
